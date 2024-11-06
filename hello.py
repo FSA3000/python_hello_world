@@ -5,7 +5,7 @@ def hangman():
     guessed_letters = []
     attempts = 6
     wörter_completion = '_' * len(wörter) 
-    print("Willkommen zu Hangman!")
+    print("Hangman")
     print(display_hangman(attempts))
     print(wörter_completion)
     print("\n")
@@ -67,7 +67,7 @@ def display_hangman(attempts):
    """,
    """
       -----
-      |   |
+      |   | 
       |
       |
       |
